@@ -1,13 +1,13 @@
 const animalData = {
-    cargo: { image: "/images/cargo.avif", name: "Cargo", pid: "ID: p01", discription: "Black wide fit cotton cargo", price: "Rs. 3000" },
-    coat: { image: "/images/coat.avif", name: "Coat", pid: "ID: p02", discription: "Black full length woolen coat", price: "Rs. 6000" },
-    hoodie: { image: "/images/hoodie.avif", name: "Hoodie", pid: "ID: p03", discription: "Black heavy weight oversize woolen hoodie", price: "Rs. 1800" },
-    jeans: { image: "/images/jeans.avif", name: "Jeans", pid: "ID: p04", discription: "Black washed cotton jeans", price: "Rs. 4000" },
-    polo: { image: "/images/polo.avif", name: "Polo Tshirt", pid: "ID: p05", discription: "Black regular cotton polo tshirt", price: "Rs. 1200" },
-    shirt: { image: "/images/shirt.avif", name: "Shirt", pid: "ID: p06", discription: "Black regular cotton shirt", price: "Rs. 1000" },
-    sweater: { image: "/images/sweater.avif", name: "Sweater", pid: "ID: p07", discription: "Black oversize woolen sweater", price: "Rs. 3500" },
-    tshirt: { image: "/images/tshirt.avif", name: "Round Neck Tshirt", pid: "ID: p08", discription: "Black oversize round neck tshirt", price: "Rs. 900" },
-    windbreaker: { image: "/images/windbreaker.avif", name: "Windbreaker", pid: "ID: p09", discription: "Black regular polyster windbreaker", price: "Rs. 4500" },
+    cargo: { image: "/images/cargo.avif", name: "Cargo", pid: "ID: p01", discription: "Black wide fit cotton cargo", price: "3000" },
+    coat: { image: "/images/coat.avif", name: "Coat", pid: "ID: p02", discription: "Black full length woolen coat", price: "6000" },
+    hoodie: { image: "/images/hoodie.avif", name: "Hoodie", pid: "ID: p03", discription: "Black heavy weight oversize woolen hoodie", price: "1800" },
+    jeans: { image: "/images/jeans.avif", name: "Jeans", pid: "ID: p04", discription: "Black washed cotton jeans", price: "4000" },
+    polo: { image: "/images/polo.avif", name: "Polo Tshirt", pid: "ID: p05", discription: "Black regular cotton polo tshirt", price: "1200" },
+    shirt: { image: "/images/shirt.avif", name: "Shirt", pid: "ID: p06", discription: "Black regular cotton shirt", price: "1000" },
+    sweater: { image: "/images/sweater.avif", name: "Sweater", pid: "ID: p07", discription: "Black oversize woolen sweater", price: "3500" },
+    tshirt: { image: "/images/tshirt.avif", name: "Round Neck Tshirt", pid: "ID: p08", discription: "Black oversize round neck tshirt", price: "900" },
+    windbreaker: { image: "/images/windbreaker.avif", name: "Windbreaker", pid: "ID: p09", discription: "Black regular polyster windbreaker", price: "4500" },
 };
 
 const params = new URLSearchParams(window.location.search);
