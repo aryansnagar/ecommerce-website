@@ -1,6 +1,6 @@
 document.getElementById("search").addEventListener("input", function () {
     const query = this.value.toLowerCase();
-    const images = document.querySelectorAll("#index-container img");
+    const images = document.querySelectorAll("#index_01 img");
 
     images.forEach(img => {
         const name = img.src.toLowerCase();
