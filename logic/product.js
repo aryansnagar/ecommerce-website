@@ -30,8 +30,6 @@ if (animalData[animal]) {
     document.getElementById("product-price").textContent = "NA";
 }
 
-
-
 // add item to cart logic
 function addToCart() {
     const product = {
