@@ -1,4 +1,4 @@
-document.getElementById("searchbar").addEventListener("input", function () {
+document.getElementById("search").addEventListener("input", function () {
     const query = this.value.toLowerCase();
     const images = document.querySelectorAll("#index-container img");
 

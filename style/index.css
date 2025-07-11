@@ -2,7 +2,7 @@
     margin: 0px auto;
     padding: 0px 40px;
     width: calc(100% - 80px);
-    max-width: calc(900px - 80px);
+    /* max-width: calc(900px - 80px); */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
@@ -10,8 +10,8 @@
 
 #index-container img {
     padding: 2px;
-    width: 250px;
-    height: 150px;
+    width: calc(100%);
+    height: auto;
     object-fit: cover;
     cursor: pointer;
     border: 1px solid transparent;
