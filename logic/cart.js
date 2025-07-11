@@ -8,7 +8,7 @@ function loadCart() {
         const itemDiv = document.createElement("div");
         itemDiv.innerHTML = `
           <h3>${item.name}</h3>
-          <p>ID: ${item.id}</p>
+          <p>${item.id}</p>
           <p>Price: ${item.price}</p>
           <button onclick="deleteItem(${index})"><span class="material-symbols-outlined">delete</span></button>
         `;
