@@ -1,5 +1,5 @@
 function loadCart() {
-    const cartContainer = document.getElementById("cart-items-container");
+    const cartContainer = document.getElementById("cart_01");
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
     cartContainer.innerHTML = "";
@@ -10,7 +10,7 @@ function loadCart() {
           <h3>${item.name}</h3>
           <p>ID: ${item.id}</p>
           <p>Price: ${item.price}</p>
-          <button onclick="deleteItem(${index})">Delete</button>
+          <button onclick="deleteItem(${index})"><span class="material-symbols-outlined">delete</span></button>
         `;
         cartContainer.appendChild(itemDiv);
     });
