@@ -11,7 +11,6 @@ function loadCart() {
           <p>ID: ${item.id}</p>
           <p>Price: ${item.price}</p>
           <button onclick="deleteItem(${index})">Delete</button>
-          <hr>
         `;
         cartContainer.appendChild(itemDiv);
     });
