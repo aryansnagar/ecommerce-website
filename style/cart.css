@@ -8,7 +8,7 @@
     align-items: start;
     justify-content: start;
 }
-/* 
+
 #cart-items-container div {
     margin: 0px auto;
     padding: 10px 20px;
@@ -17,7 +17,17 @@
     align-items: center;
     justify-content: space-between;
     border: 1px solid black;
-} */
+}
+
+#cart-items-container div h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#cart-items-container div button {
+    margin: 0px 0px;
+    padding: 5px 10px;
+}
 
 /* #cart-items-price {
     font-weight: 600;
