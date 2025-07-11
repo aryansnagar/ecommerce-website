@@ -34,25 +34,15 @@ if (animalData[animal]) {
 
 // add item to cart logic
 function addToCart() {
-    const params = new URLSearchParams(window.location.search);
-    const animal = params.get("animal");
-
-    if (!animalData[animal]) {
-        alert("Invalid animal selected!");
-        return;
-    }
-
     const product = {
         id: animalData[animal].pid,
         name: animalData[animal].name,
         price: animalData[animal].price,
-        image: animalData[animal].image,
         discription: animalData[animal].discription
     };
 
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
     cart.push(product);
     localStorage.setItem("cart", JSON.stringify(cart));
-
     window.location.href = "cart.html";
 }
