@@ -1,16 +1,13 @@
 const animalData = {
-    antelope: { image: "/images/antelope.jpg", name: "Antelope", pid: "ID: p01", discription: "3.6feet, 70Kg, 8year", price: "Rs. 3.2lakh" },
-    dog: { image: "/images/dog.jpg", name: "Dog", pid: "ID: p02", discription: "4feet, 80Kg, 5year, German Shephard", price: "Rs. 20k" },
-    dolphin: { image: "/images/dolphin.jpg", name: "Dolphin", pid: "ID: p03", discription: "4.2feet, 32Kg, 3year, Greyish Blue", price: "Rs. 6.3lakh" },
-    eagle: { image: "/images/eagle.jpg", name: "Eagle", pid: "ID: p04", discription: "9inch, 4Kg, 7months, Red Eye", price: "Rs. 12k" },
-    elephant: { image: "/images/elephant.jpg", name: "Elephant", pid: "ID: p05", discription: "10feet, 4023Kg, 32year, Perfect", price: "Rs. 30 lakh" },
-    horse: { image: "/images/horse.jpg", name: "Horse", pid: "ID: p06", discription: "9feet, 300Kg, 7year, Frey", price: "Rs. 90k" },
-    rabbit: { image: "/images/rabbit.jpg", name: "Rabbit", pid: "ID: p07", discription: "12inch, 3Kg, 5months, White Color Red Eye", price: "Rs. 2k" },
-    raccoon: { image: "/images/raccoon.jpg", name: "Raccoon", pid: "ID: p08", discription: "1feet, 18KG, 4year, Australian", price: "Rs. 23k" },
-    turtle: { image: "/images/turtle.jpg", name: "Turtle", pid: "ID: p09", discription: "18cm, 900gm, 10year, Curve Shell", price: "Rs. 2.5k" },
-    wombat: { image: "/images/wombat.jpg", name: "Wombat", pid: "ID: p10", discription: "1.3feet, 23Kg, 8year, Brown", price: "Rs. 1.8 lakh" },
-    woodpecker: { image: "/images/woodpecker.jpg", name: "Woodpecker", pid: "ID: p11", discription: "50cm, 2Kg, 2year, Southern", price: "Rs. 8k" },
-    zebra: { image: "/images/zebra.jpg", name: "Zebra", pid: "ID: p12", discription: "7feet, 132Kg, 12year, Back Striped", price: "Rs. 12 lakh" }
+    cargo: { image: "/images/cargo.avif", name: "Cargo", pid: "ID: p01", discription: "Black wide fit cotton cargo", price: "Rs. 3000" },
+    coat: { image: "/images/coat.avif", name: "Coat", pid: "ID: p02", discription: "Black full length woolen coat", price: "Rs. 6000" },
+    hoodie: { image: "/images/hoodie.avif", name: "Hoodie", pid: "ID: p03", discription: "Black heavy weight oversize woolen hoodie", price: "Rs. 1800" },
+    jeans: { image: "/images/jeans.avif", name: "Jeans", pid: "ID: p04", discription: "Black washed cotton jeans", price: "Rs. 4000" },
+    polo: { image: "/images/polo.avif", name: "Polo Tshirt", pid: "ID: p05", discription: "Black regular cotton polo tshirt", price: "Rs. 1200" },
+    shirt: { image: "/images/shirt.avif", name: "Shirt", pid: "ID: p06", discription: "Black regular cotton shirt", price: "Rs. 1000" },
+    sweater: { image: "/images/sweater.avif", name: "Sweater", pid: "ID: p07", discription: "Black oversize woolen sweater", price: "Rs. 3500" },
+    tshirt: { image: "/images/tshirt.avif", name: "Round Neck Tshirt", pid: "ID: p08", discription: "Black oversize round neck tshirt", price: "Rs. 900" },
+    windbreaker: { image: "/images/windbreaker.avif", name: "Windbreaker", pid: "ID: p09", discription: "Black regular polyster windbreaker", price: "Rs. 4500" },
 };
 
 const params = new URLSearchParams(window.location.search);
