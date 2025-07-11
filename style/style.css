@@ -1,0 +1,88 @@
+:root {
+    --background-primary: #f9f9f9;
+    --background-secondary: #eaeaea;
+    --text-primary: #010101;
+    --text-secondary: #353535;
+    --decoration-color: #625db0;
+}
+
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--background-primary);
+    color: var(--text-secondary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text-primary);
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
+a {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--decoration-color);
+}
+
+button {
+    padding: 8px 12px;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid var(--text-primary);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header {
+    margin: 0px auto;
+    padding: 40px 40px;
+    width: calc(100% - 80px);
+    max-width: calc(900px - 80px);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+header nav input {
+    padding: 5px 10px;
+    width: calc(200px);
+    outline: none;
+}
+
+header nav a {
+    margin: 0px 0px 0px 20px;
+}
+
+footer {
+    margin: 0px auto;
+    padding: 40px 40px;
+    width: calc(100% - 80px);
+    max-width: calc(900px - 80px);
+    height: fit-content;
+}
+
+footer a {
+    margin: 0px 20px 0px 0px;
+}
