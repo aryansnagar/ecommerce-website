@@ -7,13 +7,22 @@
     gap: 5px;
 }
 
-#index_01 img {
+#index_01 div {
+    width: calc(100%);
+    height: fit-content;
+}
+
+#index_01 div img {
     width: calc(100%);
     height: auto;
     object-fit: cover;
     cursor: pointer;
 }
 
-#index_01 img:hover {
+#index_01 div img:hover {
     filter: grayscale(1);
+}
+
+#index_01 div h3 {
+    margin: 0px 0px 10px 0px;
 }
