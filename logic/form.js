@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         try {
             // Send to your local Node.js server
-            const response = await fetch("https://ecommerce-website-5avb.onrender.com/save", {
+            const response = await fetch("https://black-orlov-backend.onrender.com/save", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
