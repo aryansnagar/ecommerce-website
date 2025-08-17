@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         try {
             // Send to your local Node.js server
-            const response = await fetch("https://black-orlov-backend.onrender.com/save", {
+            const response = await fetch("https://magical-amoeba-rarely.ngrok-free.app/save", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
